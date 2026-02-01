@@ -4,3 +4,16 @@
    box-sizing: border-box;
    font-family: 'Segoe UI', sans-serif; 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f0f0f;
+    color: #ffff;
+}
+
+nav {
+    
+}
