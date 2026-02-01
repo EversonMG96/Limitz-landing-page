@@ -96,3 +96,32 @@ header {
     max-width: 600px;
     opacity: 0.9;
 }
+
+section {
+    padding: 100px 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#colecoes {
+    background: #141414;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        font-size: none;
+    }
+}
